@@ -1,6 +1,8 @@
-# making a clone of uber;
+# Uber Clone;
 
-## step
+## Using React Native | Expo | Expo Web | Redux | tailwind | React Native Element | React Navigation | Google Place Autocomplate | React Native Map | React Native Map Direction | Distance Matrix API
+
+## Set To make you Own clone.
 
 1. use expo to create the project
    `npx create-expo-app uber-clone`
