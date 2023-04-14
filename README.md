@@ -78,3 +78,7 @@
 
 24. add react native map direction
     `yarn add react-native-maps-directions`
+
+# Preview
+
+    !["uber clone"](Preview.jpg)
