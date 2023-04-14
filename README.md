@@ -81,4 +81,4 @@
 
 # Preview
 
-!["uber clone"](Preview.jpg)
+!["uber clone"](Preview.png)
