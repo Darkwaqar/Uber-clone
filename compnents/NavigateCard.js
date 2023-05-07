@@ -44,20 +44,14 @@ const NavigateCard = () => {
         <NavFavourites />
       </View>
       <View
-        style={tw`flex-row bg-white justify-evenly py-2 mt-auto broder-t border-gray-100`}
+        style={tw`flex-row bg-white justify-evenly py-2 bottom-2 mt-auto broder-t border-gray-100`}
       >
         <TouchableOpacity
           onPress={() => navigation.navigate("RideOptionCard")}
-          style={tw`flex flex-row justify-between bg-black w-24 px-4 py-4 rounded-full`}
+          style={tw`flex flex-row justify-center  bg-black w-52 items-center  px-4 py-4 rounded-full`}
         >
           <Icon name="car" type="font-awesome" color="white" size={16}></Icon>
-          <Text style={tw`text-white text-center`}>Rides</Text>
-        </TouchableOpacity>
-        <TouchableOpacity
-          style={tw`flex flex-row justify-between w-24 px-4 py-4 rounded-full`}
-        >
-          <Icon name="car" type="font-awesome" color="black" size={16}></Icon>
-          <Text style={tw` text-center`}>Eats</Text>
+          <Text style={tw`text-white text-center pl-2`}>Rides</Text>
         </TouchableOpacity>
       </View>
     </View>
@@ -74,7 +68,7 @@ const toInputBoxStyle = StyleSheet.create({
   },
   textInput: {
     backgroundColor: "#DDDDDD",
-    borderRadius: 0,
+    borderRadius: 10,
     fontSize: 18,
   },
   textInputContainer: {

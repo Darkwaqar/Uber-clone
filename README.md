@@ -81,4 +81,6 @@
 
 # Preview
 
-!["uber clone"](Preview.png)
+| Landing                      | Choose                       | Confirm                      |
+| ---------------------------- | ---------------------------- | ---------------------------- |
+| ![alt text](./preview/1.png) | ![alt text](./preview/2.png) | ![alt text](./preview/3.png) |
